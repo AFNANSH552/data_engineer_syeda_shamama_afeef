@@ -1,0 +1,178 @@
+{
+  "analysis_timestamp": "2025-08-23 20:41:50",
+  "dataset_overview": {
+    "dataset_shape": [
+      2,
+      16
+    ],
+    "total_records": 2,
+    "total_columns": 16,
+    "columns": [
+      "title",
+      "supplier_name",
+      "location",
+      "raw_price",
+      "numeric_price",
+      "currency",
+      "price_unit",
+      "description",
+      "image_url",
+      "product_url",
+      "source_url",
+      "category",
+      "marketplace",
+      "price_outlier",
+      "standardized_unit",
+      "extracted_state"
+    ],
+    "data_types": {
+      "title": "object",
+      "supplier_name": "float64",
+      "location": "float64",
+      "raw_price": "float64",
+      "numeric_price": "float64",
+      "currency": "object",
+      "price_unit": "float64",
+      "description": "float64",
+      "image_url": "object",
+      "product_url": "object",
+      "source_url": "object",
+      "category": "object",
+      "marketplace": "object",
+      "price_outlier": "bool",
+      "standardized_unit": "float64",
+      "extracted_state": "float64"
+    },
+    "missing_values": {
+      "title": 0,
+      "supplier_name": 2,
+      "location": 2,
+      "raw_price": 2,
+      "numeric_price": 2,
+      "currency": 0,
+      "price_unit": 2,
+      "description": 2,
+      "image_url": 0,
+      "product_url": 0,
+      "source_url": 0,
+      "category": 0,
+      "marketplace": 0,
+      "price_outlier": 0,
+      "standardized_unit": 2,
+      "extracted_state": 2
+    },
+    "missing_percentages": {
+      "title": 0.0,
+      "supplier_name": 100.0,
+      "location": 100.0,
+      "raw_price": 100.0,
+      "numeric_price": 100.0,
+      "currency": 0.0,
+      "price_unit": 100.0,
+      "description": 100.0,
+      "image_url": 0.0,
+      "product_url": 0.0,
+      "source_url": 0.0,
+      "category": 0.0,
+      "marketplace": 0.0,
+      "price_outlier": 0.0,
+      "standardized_unit": 100.0,
+      "extracted_state": 100.0
+    },
+    "memory_usage": "0.00 MB"
+  },
+  "category_insights": {
+    "total_categories": 1,
+    "category_distribution": {
+      "electronics": 2
+    },
+    "category_percentages": {
+      "electronics": 100.0
+    }
+  },
+  "pricing_insights": {
+    "error": "No valid price data found"
+  },
+  "supplier_insights": {
+    "total_suppliers": 0,
+    "avg_products_per_supplier": 0,
+    "top_suppliers": {},
+    "supplier_concentration": {
+      "single_product_suppliers": "0",
+      "multi_product_suppliers": "0",
+      "top_10_supplier_share": 0.0
+    }
+  },
+  "location_insights": {
+    "raw_locations": {
+      "total_locations": 0,
+      "top_locations": {}
+    },
+    "state_analysis": {
+      "total_states": 0,
+      "state_distribution": {},
+      "state_percentages": {}
+    },
+    "price_by_state": {
+      "count": {},
+      "mean": {},
+      "median": {}
+    }
+  },
+  "text_insights": {
+    "title_analysis": {
+      "avg_title_length": 14.0,
+      "title_word_count": 2.5,
+      "common_title_words": [
+        [
+          "table",
+          1
+        ],
+        [
+          "fan",
+          1
+        ],
+        [
+          "copper",
+          1
+        ],
+        [
+          "winding",
+          1
+        ],
+        [
+          "wire",
+          1
+        ]
+      ]
+    }
+  },
+  "data_quality": {
+    "missing_data": {
+      "columns_with_missing": "8",
+      "total_missing_values": "16",
+      "missing_by_column": {
+        "title": 0,
+        "supplier_name": 2,
+        "location": 2,
+        "raw_price": 2,
+        "numeric_price": 2,
+        "currency": 0,
+        "price_unit": 2,
+        "description": 2,
+        "image_url": 0,
+        "product_url": 0,
+        "source_url": 0,
+        "category": 0,
+        "marketplace": 0,
+        "price_outlier": 0,
+        "standardized_unit": 2,
+        "extracted_state": 2
+      }
+    },
+    "duplicates": {
+      "total_duplicates": "0",
+      "duplicate_percentage": 0.0
+    }
+  }
+}

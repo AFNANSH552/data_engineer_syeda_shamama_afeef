@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Table Fan",
+    "supplier_name": "",
+    "location": "",
+    "raw_price": "",
+    "numeric_price": null,
+    "currency": "INR",
+    "price_unit": "",
+    "description": "",
+    "image_url": "https://5.imimg.com/data5/IS/RQ/GLADMIN-27311788/table-fan-250x250.png",
+    "product_url": "https://www.indiamart.com/products.html",
+    "source_url": "https://www.indiamart.com/electronics-electrical/",
+    "category": "electronics",
+    "marketplace": "IndiaMART"
+  },
+  {
+    "title": "Copper Winding Wire",
+    "supplier_name": "",
+    "location": "",
+    "raw_price": "",
+    "numeric_price": null,
+    "currency": "INR",
+    "price_unit": "",
+    "description": "",
+    "image_url": "https://5.imimg.com/data5/SELLER/Default/2024/1/373716040/XB/CS/IK/2942250/elektrisola-34-to-50-gauge-copper-winding-wire-250x250.png",
+    "product_url": "https://www.indiamart.com/copper-winding-wire-litz-wire.html",
+    "source_url": "https://www.indiamart.com/electronic-components/",
+    "category": "electronics",
+    "marketplace": "IndiaMART"
+  }
+]
